@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    experimental: {
+        appDir: true, // Aktifkan folder "app" jika dipakai
+    },
     images: {
         remotePatterns: [
             {
